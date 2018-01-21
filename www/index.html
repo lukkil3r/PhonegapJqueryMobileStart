@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Template Jquery Mobile</title>
+
+    <link rel="stylesheet" href="libs/jQueryMobile/css/jquery.mobile-1.4.5.min.css" />
+
+</head>
+
+<body>
+
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Título da aplicação</h1>
+        </div>
+        <!-- /header -->
+
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">Phonegap</a></li>
+                <li><a href="#">Jquery Mobile</a></li>
+                <li><a href="#">Jquery</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">CSS</a></li>
+            </ul>
+        </div>
+        <!-- /conteúdo -->
+
+        <div data-role="footer">
+            <h4>Rodapé da aplicação</h4>
+        </div>
+        <!-- /footer -->
+    </div>
+    <!-- /page -->
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="libs/js/fastclick.min.js"></script>
+    <script src="libs/js/jquery-1.12.4.min.js"></script>
+    <script src="libs/jQueryMobile/js/jquery.mobile-1.4.5.min.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
